@@ -1,20 +1,29 @@
-*include «stdio.h»
-main - print the string in the put function
-Description; using the main function
-Return: •
-this program prints "Programing is like building a multilingual puzzle
-int main(vold)
+#include <stdio.h>
+
+/**
+
+* main-Entry point
+
+*
+
+* Return: 0 if succesful
+
+*/
+
+int main(void)
+
 {
-char C:
-int 1;
-long 11;
-long long 111;
-float f;
-printf("Size of a char: Xld byte(s) \n", sizeof(c));
-printf ("Size of an int: *ld byte(s) \n", sizeof(1));
-printf("Size of a long int: *ld byte(s) in", sizeof(1));
-printf ("Size of a long long int: *ld byte(s) in"
-•, sizeof(111)):
-printf ("Size of a float: Xld byte(s) In°, sizeof(f));
+
+printf("Size of a char: %zu byte(s)\n", sizeof(char));
+
+printf("Size of an int: %zu byte(s)\n", sizeof(int));
+
+printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+
+printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+
+printf("Size of a float: %zu byte(s)\n", sizeof(float));
+
 return (0);
-AC
+
+}
