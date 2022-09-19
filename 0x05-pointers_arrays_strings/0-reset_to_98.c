@@ -1,39 +1,12 @@
 #include "main.h"
 
-
-
 /**
-
-* main -	Tests the function for project reset to 98
-
-* Return:	Always zero (0);
-
+*reset_to_98 - resets the value of given integer to 98
+*@n: parameter
+*Return : nothing
 */
 
-
-
-int main(void)
-
+void reset_to_98(int n*)
 {
-
-int i;
-
-
-
-i = 402;
-
-
-
-printf("The value of i is: %i\n", i);
-
-
-
-reset_to_98(&i);
-
-printf("The value of i is: %i\n", i);
-
-
-
-return (0);
-
+ *n = 98;
 }
