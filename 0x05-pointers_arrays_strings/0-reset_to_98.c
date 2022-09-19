@@ -1,10 +1,19 @@
 #include "main.h"
 
+
+
 /**
+
 * main -	Tests the function for project reset to 98
+
 * Return:	Always zero (0);
+
 */
+
+
+
 int main(void)
+
 {
 
 int i;
