@@ -1,20 +1,18 @@
 #include "main.h"
 /**
-* print_alphabet - a function that prints the alphabet, in lowercase
-*
-* Return: Always 0 (Succes)
+* _isdigit-checks if an input is a digit
+* @c:The input to be tested
+* Return:-1 if c is a digit else, 0
 */
-void print_alphabet(void)
+
+int _isdigit(int c)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
+int item;
 
+for (item = '0'; item <= '9'; item++)
 {
-
-_putchar(n);
-
+if (item == c)
+return (1);
 }
-
-_putchar('\n');
-
+return (0);
 }
