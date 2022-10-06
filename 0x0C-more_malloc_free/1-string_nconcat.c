@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 *string_nconcat - concat 2 string
 *@s1: string 1
